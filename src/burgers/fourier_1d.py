@@ -163,7 +163,8 @@ def FNO_main(train_data_res, save_index):
     ################################################################
     
     # Data is of the shape (number of samples, grid size)
-    dataloader = MatReader('burgers_data_R10.mat')
+    dataloader = MatReader('F://00程序//Githubclone_Projects//deeponet-fno//data//2022_CMAME_Lu'
+                           '//Burgers//burgers_data_R10.mat')
     x_data = dataloader.read_field('a')[:,::sub]
     y_data = dataloader.read_field('u')[:,::sub]
     
